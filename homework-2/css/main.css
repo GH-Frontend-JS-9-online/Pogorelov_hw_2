@@ -1,35 +1,41 @@
-body{
-	padding: 0;
-	margin: 0;
-	font-family: 'Lato', sans-serif;
-}
-
-div{
+*{
 	box-sizing: border-box;
 }
 
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	max-width: 2000px;
+	max-height: 4000px;
+	
+	
+
+}
+
+
 header {
   width: 100%;
-  height:870px;
+  height:21,25%;
   background-color:#3695ff;
   background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
   background-repeat: no-repeat;
   text-transform: uppercase;
 }
 .container{
-	width: 1140px;
+	width: 57.5%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .menu{
-	margin-top: 100px;
+	margin-top: 3%;
 	float: right;
 
 }
 
 .Profile_Picture {
-	margin-top: 170px;
+	margin-top: 5%;
 	margin-right: -30px;
 }
 h1{
@@ -54,7 +60,8 @@ h1{
 	font-size: 12px;
 }
 .button2{
-    background-color: #fff;
+   
+	background-color: #fff;
 	border-radius: 25px;
 	height: 50px;
 	width: 160px;
@@ -62,63 +69,74 @@ h1{
 	border: 0px;
 	font-weight: bold;
 	font-size: 12px;
-	padding-top: 20px;
-	
-
-	
-	
+	margin-left: 20px;
+		
 }
 
 .strelka{
-	margin-top: 170px;
+	margin-top: 7%;
+	padding-bottom: 1%
 	
 }
 
 footer{
   width: 100%;
-  height:240px;
+  height:6.25%;
   background-color:#3695ff;
   background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
   background-repeat: no-repeat;
   margin-top: -40px;
+  padding-bottom: 60px;
   
  
 
 }
-.foot{
+.foot_text{
 	font-size: 40px;
 	color: #fff;
-	padding-top: 90px;
 	
-
-
+	
 }
+
+.foot{
+	display: flex;
+	padding-top: 60px;
+	text-align: center;
+}
+
+
+
 
 h2{
 
 	color: #3695ff;
 	font-weight: lighter;
-	padding-top: 95px;
+	padding-top: 2%;
 }
 h3{
 	color: #3677fd;
 	font-size: 16px;
 }
 .About_Me{
-	height:400px;
+	height:10%;
+
 }
 .Expert_In{
-	height:1150px;
+	height:28.75%;
 	background-color: #f1f8ff;
 }
+.Latest_Works{
+	height:25%;
+}
 .Clients{
-	height:360px;
+	/* Почему-то не могу выставить высоту 8.75%*/
+	height:8.75%;
 	background-color: #f1f8ff;
-	margin-top: 150px;
+	
 }
 
 .icon{
-	width: 360px;
+	width: 31.3043%;
 	text-align: center;
 }
 
@@ -143,6 +161,7 @@ p.about{
 	line-height: 2.2em;
 }
 
+
 .first3works{
 	display: flex;
     justify-content: center;
@@ -156,7 +175,22 @@ p.about{
     margin-top: 50px;
 	
 }
-.logos{
+
+.works{
+	width: 31.3043%;
+}
+
+.Client{
 	padding-bottom: 20px;
 
+}
+
+.clients_labels{
+	width: 52.15%;
+	padding-bottom: 70px;
+
+
+}
+img{
+	max-width: 100%
 }
